@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for header section  */
+
+.homepage__header {
+  background-color: #213049;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homepage__header .headerNav .btnDownload {
+  background: #f53838;
+  border-radius: 8px;
+  padding: 16px, 34px, 16px, 34px;
+  float: right;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* styles for  search section*/
+
+.mainSection {
+  background-color: #1d2c45;
+  min-height: 720px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.mainSection__heading {
+  word-wrap: break-word;
+  font-weight: 800;
+  font-size: 68px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.mainSection__para {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+}
+
+.mainSection__goTo {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.mainSection__goTo a {
+  text-decoration: none;
+}
+
+.mainSection__goTo-googlePlayButton {
+  display: flex;
+  width: 226px;
+  height: 65px;
+}
+
+.mainSection__goTo-googlePlayButton .playImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainSection__goTo-googlePlayButton p {
+  font-weight: 500;
+  text-align: center;
+}
