@@ -216,11 +216,11 @@ grid-template-columns: repeat(3,minmax(333px,1fr));
   color: #8a8a8a;
   word-wrap: break-word;
   word-break: break-word;
-  
+
   margin: 0 auto;
 }
 
-.responsiveHeading{
+.responsiveHeading {
   width: 72rem;
 }
 
@@ -316,15 +316,16 @@ grid-template-columns: repeat(3,minmax(333px,1fr));
   font-size: 1.8rem;
 }
 
-.btn-submit, .btn-submit:hover {
+.btn-submit,
+.btn-submit:hover {
   background: #f53838;
   border-radius: 0.8rem;
-  padding: 1.2rem ;
+  padding: 1.2rem;
   width: 100%;
   color: #ffffff;
   font-size: 1.8rem;
   font-weight: 700;
-  border:none;
+  border: none;
 }
 
 /* Styles for footer section  */
@@ -333,6 +334,10 @@ footer {
   background-color: #1d2c45;
 
   position: relative;
+}
+
+.footer__goTo {
+  display: flex;
 }
 
 .social-icons {
@@ -543,21 +548,20 @@ footer {
     padding: 1rem 1rem;
     text-align: center;
   }
-  .btnBegin, .btnBegin:hover{
-    padding:0.3rem 3.3rem;
+  .btnBegin,
+  .btnBegin:hover {
+    padding: 0.3rem 3.3rem;
   }
-  .bridalData__head h2{
+  .bridalData__head h2 {
     font-size: 4rem;
   }
-  .bridalData__head p{
+  .bridalData__head p {
     font-size: 1.4rem;
   }
-  .premium-offer .btnDownload1{
-    padding:1rem 3.4rem;
+  .premium-offer .btnDownload1 {
+    padding: 1rem 3.4rem;
   }
 }
-
-
 
 @media (max-width: 768px) {
   .btnBegin {
@@ -602,7 +606,7 @@ footer {
   .bridalData__head p {
     font-size: 1.6rem;
   }
-  .responsiveHeading{
+  .responsiveHeading {
     width: 37rem;
   }
   .footer__copyright {
@@ -661,7 +665,6 @@ footer {
     width: 23rem;
   }
 }
-
 
 @media (min-width: 1400px) {
   .carouselDivContent {
